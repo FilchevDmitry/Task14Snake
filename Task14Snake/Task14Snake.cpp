@@ -9,10 +9,7 @@ int main()
 	{
 		for (size_t j = 0; j < r; j++)
 		{
-			if (i % 2 == 0)
-				snake[i][j] = i * r + (j + 1);
-			else
-				snake[i][j] = (i * r - j) + r;
+			(i % 2 == 0)?snake[i][j] = i * r + (j + 1):snake[i][j] = (i * r - j) + r;
 		}
 	}
 	for (size_t i = 0; i < r; i++)
@@ -21,7 +18,7 @@ int main()
 		{
 			cout << snake[i][j];
 		}
-		cout<<endl;
+		
 	}
 }
 
