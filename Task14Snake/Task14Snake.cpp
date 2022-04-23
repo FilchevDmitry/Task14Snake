@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {	
-
 	const int r = 5;
 	const int c = 5;
     int snake[c][r];
@@ -19,7 +18,7 @@ int main()
 	{
 		for (size_t j = 0; j < r; j++)
 		{
-			cout << snake[i][j];
+			cout << snake[i][j]<<" ";
 		}
 		cout << endl;
 	}
